@@ -1,0 +1,27 @@
+package aula_01;
+
+import java.util.Scanner;
+
+public class atividade_01 {
+	public static void main(String[] args) {
+		
+		Scanner exibir = new Scanner(System.in);
+	
+		
+		double salario ;
+		double abono ;
+		double novoSalario;
+		
+		
+		System.out.println("\nvalor do Salário: ");
+		abono = exibir.nextDouble();
+		System.out.println("valor do abono: ");
+		abono = exibir.nextDouble();
+		
+		novoSalario = salario + abono;
+		System.out.print("Valor Atualizado com Abono: " + novoSalario);
+	
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package aula_01;
+
+import java.util.Scanner;
+
+public class Atividade_03 {
+	
+		public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		float salarioBruto,adicionalNoturno,horasExtras,descontos,salarioLiquido;
+		   
+		   System.out.println("insira o salarioBruto: ");
+		   salarioBruto = scan.nexFloat();
+		   
+		   System.out.println("insira o adicional Noturno: ");
+		   adicionalNoturno = scan.nexFloat();
+		   
+		   System.out.println("insira as Horas Extras: ");
+		   horasExtras = scan.nexFloat();
+		   
+		   salarioLiquido = (salarioBruto+adicionalNoturno+(horasExtras*5)-descontos)/4;
+		   
+		   System.out.printf("O Salário liquido é: ",salarioLiquido);
+		
+		
+		}
+}

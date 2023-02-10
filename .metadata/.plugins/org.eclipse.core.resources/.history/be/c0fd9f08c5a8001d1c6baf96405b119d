@@ -1,0 +1,27 @@
+package aula_01;
+
+import java.util.Scanner;
+
+public class Atividade_09 {
+    public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int cod;
+		int qtds;
+		int preco=0;
+		float total;
+		
+		System.out.println("Faça o seu pedido\n Irforme o Produto: ");
+		cod = leia.nextInt();
+		
+		System.out.println(" Irforme a Quantidade do Produto: ");
+		
+		
+		
+		
+		
+    }
+	
+
+}

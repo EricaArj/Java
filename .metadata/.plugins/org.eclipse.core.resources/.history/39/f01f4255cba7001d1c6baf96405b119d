@@ -1,0 +1,20 @@
+package aula_01;
+
+import java.util.Scanner;
+
+public class atividade_01 {
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int salario;
+		int abono = 1000;
+		int novoSalario;
+		
+		System.out.println("\nDigite um valor do Salário: ");
+		salario = leia.nextInt();
+		
+		
+	}
+
+}

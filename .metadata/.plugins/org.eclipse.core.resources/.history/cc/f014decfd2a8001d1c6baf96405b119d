@@ -1,0 +1,72 @@
+package aula_01;
+
+import java.util.Scanner;
+
+public class Atividade_09 {
+    public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int cod;
+		int qtds;
+		int preco = 0;
+		float total;
+		
+		System.out.println("  Faça o seu pedido\nIrforme o Código do Produto: ");
+		cod = leia.nextInt();
+		
+		System.out.println(" Quantidade do Produto: ");
+		qtds = leia.nextInt();
+		
+		switch(cod){
+		
+		case 1:
+			preco = 10;
+			System.out.println(" Produto: Cachorro Quente");
+			total = preco *qtds;
+       	    System.out.printf("  Valor total: %f", total);
+			break;
+		case 2:
+			preco = 15;
+			System.out.println(" Produto: X-Salada");
+			total = preco *qtds;
+       	    System.out.printf("  Valor total: *f", total);
+			break;
+		case 3:
+			preco = 18;
+			System.out.println(" Produto: X-Bacon");
+			total = preco *qtds;
+       	    System.out.printf("  Valor total: *%f", total);
+			break;
+		case 4:
+			preco = 12;
+			System.out.println(" Produto: Bauru");
+			total = preco *qtds;
+       	    System.out.printf("  Valor total: *%f", total);
+			break;
+		case 5:
+			preco = 8;
+			System.out.println(" Produto: Refrigerante");
+			total = preco *qtds;
+       	    System.out.printf("  Valor total: *%f", total);
+			break;
+		case 6:
+			preco = 13;
+			System.out.println(" Produto: Suco de laranja");
+			total = preco *qtds;
+       	    System.out.printf("  Valor total: *%f", total);
+			
+			break;
+			
+		}
+		
+         
+         
+         leia.close();
+		
+		
+		
+    }
+	
+
+}

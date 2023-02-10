@@ -1,0 +1,25 @@
+package aula_01;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class atividade_01 {
+	public static void main(String[] args) {
+		
+		DecimalFormat df= new  DecimalFormat("##.##");
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int salario= 10000;
+		int abono = 1000;
+		double novoSalario = salario + abono;
+		
+		
+		System.out.println("\nvalor do Salário: " + salario);
+		System.out.println("valor do abono: " + abono);
+		System.out.printf("Valor Atualizado com Abono: "+ novoSalario);
+	
+		
+	}
+
+}

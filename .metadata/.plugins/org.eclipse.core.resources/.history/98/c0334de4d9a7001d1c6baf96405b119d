@@ -1,0 +1,27 @@
+package aula_01;
+
+import java.util.Scanner;
+
+public class Atividade_03 {
+		public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		float salarioBruto;
+		float addNoturno;
+		float descontos;
+		float salarioLiquido;
+		
+		
+		System.out.println("\n Primeira Nota: ");
+		salarioBruto = scan.nextFloat();
+		System.out.println(" Segunda Nota: ");
+		addNoturno = scan.nextFloat();
+		System.out.println(" Terceira Nota: ");
+		descontos = scan.nextFloat();
+		System.out.println(" Terceira Nota: ");
+		salarioLiquido = scan.nextFloat();
+		
+
+}

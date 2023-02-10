@@ -1,0 +1,26 @@
+package aula_01;
+
+/*Faça um algoritmo em Java que leia 3 valores inteiros A, B e C e imprima na tela
+se a soma de A + B é maior, menor ou igual a C.*/
+
+
+
+import java.util.Scanner;
+
+public class Atividade_05 {
+public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+	
+		
+		int A;
+		int B;
+		int C;
+		
+		System.out.println("Informe na tela os valores: ");
+		
+		System.out.println("Digite o 1 numero que vai ser o valor de  A: ");
+		A = leia.nextInt();
+}
+
+}

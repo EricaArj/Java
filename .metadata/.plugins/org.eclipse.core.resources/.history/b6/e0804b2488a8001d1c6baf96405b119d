@@ -1,0 +1,50 @@
+package aula_02;
+
+import java.util.Scanner;
+
+public class Plano_Saude_02 {
+
+	public static void main(String[] args) {
+		
+     Scanner leia = new Scanner (System.in);
+		
+		int faixa;
+		
+		System.out.println("Digite a sua idade: ");
+		faixa = leia.nextInt();
+		
+		
+		switch(faixa) {
+		
+		case 1:
+			System.out.println("Ovalor do seu Plano de Súde será de R$: 100,00");
+			break;
+		case 2:
+			System.out.println("Ovalor do seu Plano de Súde será de R$: 200,00");
+			break;
+		case 3:
+			System.out.println("Ovalor do seu Plano de Súde será de R$: 300,00");
+			break;
+		case 4:
+			System.out.println("Ovalor do seu Plano de Súde será de R$: 500,00");
+			break;
+		case 5:
+			System.out.println("Ovalor do seu Plano de Súde será de R$: 600,00");
+			break;
+		case 6:
+			System.out.println("Ovalor do seu Plano de Súde será de R$: 1000,00");
+			break;
+			
+			default:
+				//informar que não existe;
+				System.out.println("Plano invalido");
+		
+		}
+		
+		
+		
+		leia.close();
+
+	}
+
+}
