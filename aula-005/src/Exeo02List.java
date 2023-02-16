@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Exeo1Set {
+public class Exeo02List {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> valores = new ArrayList<Integer>();
