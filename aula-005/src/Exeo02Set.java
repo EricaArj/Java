@@ -1,10 +1,11 @@
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
-public class Exeo02List {
+public class Exeo02Set {
 
 	public static void main(String[] args) {
-		ArrayList<Integer> valores = new ArrayList<Integer>();
+		Set<Integer> valores = new HashSet<Integer>();
 		Scanner leia = new Scanner(System.in);
 		int testeNu;
 		
